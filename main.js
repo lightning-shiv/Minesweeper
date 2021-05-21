@@ -8,19 +8,6 @@ var w = 40;
 var boardWidth = 600;
 var boardHeight = 600;
 var hintsRemaining = 5;
-/*
-====TODO FEATURES====
--hint system
--generate mines after first click to prevent RNG loss
--add temporary flag when right clicking
--improve images with actual images rather than drawn shapes
--clicking a numbered tile calls a floodfill around the tile,
-and reveals adjacent non-flagged tiles
-
-====BUGS====
--Unflagging/flagging after game is over changes background color
--
-*/
 
 function setup() {
   createCanvas(1000, 1000);
